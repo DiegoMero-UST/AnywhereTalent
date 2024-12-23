@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <section className="border-box bg-[#fdf8f3] pt-10 pb-10 grid grid-cols-3">
              <div className="flex flex-col items-center">
-                <a href="/">
+                <Link href="/">
                     <Image
                         src="/logo.png"
                         width={200}
@@ -13,10 +13,10 @@ export default function Footer(){
                         alt="logo_footer"
                         className="cursor-pointer"
                     />    
-                </a>
-                <a href="https://www.linkedin.com/company/anywhere-talent/">
+                </Link>
+                <Link href="https://www.linkedin.com/company/anywhere-talent/">
                     <img src="https://cdn.prod.website-files.com/66e84fbba763c640a1c7496e/66f2ef63cce721959468bcb8_icons8-linkedin%20(1).svg" alt="Linkedin" width={30} height={30}/>
-                </a>
+                </Link>
              </div>
              <div className="flex flex-col items-center justify-center pb-10 static">
                 <img src="https://cdn.prod.website-files.com/66e84fbba763c640a1c7496e/6751c5839db504bd15192bab_eos.png" alt="EOS_img"/>

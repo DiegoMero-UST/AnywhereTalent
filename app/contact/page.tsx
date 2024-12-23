@@ -2,8 +2,8 @@
 export default function Home() {
     return (
         <section className="pl-60 pr-60 pt-20">
-            <h2 className="text-6xl font-bold text-center pt-16 pb-5">Let's get started</h2>
-            <h3 className="text-xl text-center pb-20 pt-10">Tell us about the role you're looking to fill.</h3>
+            <h2 className="text-6xl font-bold text-center pt-16 pb-5">Let&apos;s get started</h2>
+            <h3 className="text-xl text-center pb-20 pt-10">Tell us about the role you&apos;re looking to fill.</h3>
             <form className="p-10 border border-slate-400 rounded-3xl shadow-lg ">
                 <div className="grid grid-cols-2 gap-10">
                     <div className="flex flex-col">
@@ -50,8 +50,9 @@ export default function Home() {
             </form>
             <div className="flex flex-col items-center p-20 gap-5">
                 <h2 className="text-3xl font-bold pt-10 pb-5">Contact our team directly</h2>
-                <p className="text-xl text-center">Need assistance? Reach out to our team, and we'll get back to you with <br />the information or support you need as soon as possible!</p>
+                <p className="text-xl text-center">Need assistance? Reach out to our team, and we&apos;ll get back to you with <br />the information or support you need as soon as possible!</p>
                 <div className="border rounded-3xl flex p-10 mt-14 gap-5 justify-center items-center transition easy-in-out hover:-translate-y-1 hover:scale-110 shadow-2xl cursor-pointer">
+                    
                     <img src="https://cdn.prod.website-files.com/66e84fbba763c640a1c7496e/66e84fbba763c640a1c74a2c_Icon%20talent%20support.svg" alt="email" height={80} width={80} />
                     <div>
                         <h3 className="font-bold">General Support</h3>
