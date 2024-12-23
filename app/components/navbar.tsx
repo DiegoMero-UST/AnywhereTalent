@@ -38,7 +38,7 @@ export default function Navbar() {
             <Link className="hover:border-b-2 hover:border-white cursor-pointer" href="/contact">Contact</Link>
           </li>
           <li>
-            <button className={`${pathname === '/' ? 'hidden' : 'block'} transition easy-in-out bg-[#0A8D94] hover:-translate-y-1 hover:scale-110 hover:bg-cyan-700 rounded-3xl p-5 hover:shadow-2xl shadow-lg text-4xl text-white`}>Book discovery call</button>
+            <button className={`${pathname === '/' ? 'hidden' : 'block'} transition easy-in-out bg-[#0A8D94] hover:-translate-y-1 hover:scale-100 hover:bg-cyan-700 rounded-3xl p-5 hover:shadow-2xl shadow-lg text-4xl text-white`}>Book discovery call</button>
           </li>
         </ul>
       </div>
