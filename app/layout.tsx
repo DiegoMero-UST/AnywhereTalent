@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 
 const titillium = Titillium_Web({
   weight: "400",
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
