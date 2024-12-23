@@ -6,8 +6,8 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const titillium = Titillium_Web({
-  weight: "400",
-  subsets: ['latin']
+  subsets: ['latin'],
+  weight: "400"
 });
 
 export const metadata: Metadata = {
